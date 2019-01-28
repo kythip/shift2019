@@ -1,6 +1,6 @@
 # SHIFT AppSec 2019
 
-## Стек технологий
+## Proverka
 - Python3 + Flask ([uwsgi-nginx-flask-docker](https://github.com/tiangolo/uwsgi-nginx-flask-docker))
 - Docker
 - Git
