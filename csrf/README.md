@@ -157,4 +157,9 @@ xhr.send(params);
 
 
 ## Обход защиты
+1) Referer может быть скрыт
+2) Content-Type защиту можно обойти с использованием flash + 307 redirect.
+	Пример: [тут](https://blog.appsecco.com/exploiting-csrf-on-json-endpoints-with-flash-and-redirects-681d4ad6b31b)
+3) Double Submit Cookie можно обойти с помощью crlf инъекции
+4) Если на сайте присутсвует уязвимость типа XSS, то ни одна защита от CSRF не работает
 
